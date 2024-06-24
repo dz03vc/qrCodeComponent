@@ -193,7 +193,7 @@ h1 {
     color: hsl(228, 45%, 44%);
 }
 
-@media (min-width: 375px) {
+@media (min-width: 376px) {
     .container {
         margin-top: 152px;
     }
