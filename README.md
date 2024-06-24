@@ -31,16 +31,16 @@ Users should be able to:
 
 - Desktop:
 
-![Desktop Version](https://github.com/dz03vc/orderSummaryComponent/blob/main/screenshotOrderSummaryDesktop.png?raw=true)
+![Desktop Version](https://raw.githubusercontent.com/dz03vc/qrCodeComponent/main/screenshotQrCodeDesktop.png)
 
 - Mobile:
 
-![Mobile Version](https://github.com/dz03vc/orderSummaryComponent/blob/main/screenshotOrderSummaryMobile.png?raw=true)
+![Mobile Version](https://raw.githubusercontent.com/dz03vc/qrCodeComponent/main/screenshotQrCodeMobile.png)
 
 ### Links
 
-- [Solution URL](https://github.com/dz03vc/orderSummaryComponent)
-- [Live Site URL](https://dz03vc.github.io/orderSummaryComponent/)
+- [Solution URL](https://github.com/dz03vc/qrCodeComponent)
+- [Live Site URL](https://dz03vc.github.io/qrCodeComponent/)
 
 ## My process
 
@@ -49,47 +49,26 @@ Users should be able to:
 - HTML5
 - Pure CSS 
 - Flexbox
-- SVG
 
 ### What I learned
 
-- Mainly how to scructure the HTML while focused on the way I would style the CSS coding;
-- The different ways of working with, and scaling, SVG;
-- How to work with flexbox;
+- This is my second challenge on Frontend Mentor. While it was easier than the "Order Summary Card" challenge, it still provided valuable practice, particularly in solidifying my understanding of Flexbox.
+- This time I designed mobile first and then added @media for Desktop version. 
 
-```html
-<div class="planColumn">
-        <data class="plan">Annual Plan</data>
-        <data class="price">$59.99/year</data>
-      </div>
-```
 ```css
-.planContainer {
-      display: flex;
-      background-color: hsl(225, 100%, 98%);
-      padding-left: 1.65rem;
-      padding-right: 1.65rem;
-      padding-top: 1.5rem;
-      padding-bottom: 1.5rem;
-      border-radius: 1rem;
-      margin-top: 0.5rem;
-      margin-bottom: 0.25rem;
+@media (min-width: 376px) {
+    .container {
+        margin-top: 152px;
     }
-
-    .planColumn {
-      display: flex;
-      flex-direction: column;
-    }
+}
 ```
 
 ### Continued development
 
-- I learned a lot about flex and svg with this challenge, but I definetely need to continue exploring the different ways of working with it;
-- I'm planning on doing the HTML/CSS QR code challenge before starting the Colt Steele's JavaScript section.
+- I really enjoyed how Frontend Mentor works, but now I'll take a break for a week to learn a little of Javascript and after that I'll pick another challenge. I'm open to suggestions;
 
 ### Useful resources
 
-- [Kevin Powell - YouTube](https://www.youtube.com/@KevinPowell) - His Channel helped me a lot with his CSS/SVG related videos.
 - [MDN - Flex](https://developer.mozilla.org/en-US/docs/Web/CSS/flex) - MDN structures/Syntaxes/Instructions always helping.
 - [Colt Steele's Web Dev Bootcamp](https://www.udemy.com/course/the-web-developer-bootcamp/) - Colt Steele's bootcamp that I'm enrolling right now.
 
@@ -98,11 +77,4 @@ Users should be able to:
 - Website - [Guilherme @ Github](https://github.com/dz03vc)
 - Frontend Mentor - [Guilherme @ Frontend Mentor](https://www.frontendmentor.io/profile/dz03vc)
 - Linkedin - [Guilherme @ LinkedIn](https://www.linkedin.com/in/guilherme-pinto-1b998b22/)
-
-
-## Acknowledgments
-
-- A big thanks to M and V that helped me with this challenge!
-- [M's GitHub](https://github.com/studentiyot)
-- [V's GitHub](https://github.com/Vishisht-Dwivedi)
 
