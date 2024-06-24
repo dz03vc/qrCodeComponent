@@ -131,9 +131,6 @@ table {
 body {
     font-family: "Outfit", sans-serif;
     background-color: #D5E1EF;
-}
-
-main {
     display: flex;
     flex-direction: column;
 }
